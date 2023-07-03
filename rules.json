@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "https://twitter.com/i/api/2/badge_count/badge_count.json?*",
+      "domains": ["twitter.com"],
+      "resourceTypes": ["xmlhttprequest"]
+    }
+  },
+  {
+    "id": 2,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "https://api.twitter.com/1.1/live_pipeline/update_subscriptions",
+      "domains": ["twitter.com"],
+      "resourceTypes": ["xmlhttprequest"]
+    }
+  },
+  {
+    "id": 3,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "https://twitter.com/i/api/1.1/jot/client_event.json?*",
+      "domains": ["twitter.com"],
+      "resourceTypes": ["xmlhttprequest"]
+    }
+  },
+  {
+    "id": 4,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "https://api.twitter.com/live_pipeline/events?topic=%2Ftweet_engagement*",
+      "domains": ["twitter.com"],
+      "resourceTypes": ["xmlhttprequest"]
+    }
+  },
+  {
+    "id": 5,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "https://api.twitter.com/1.1/guest/activate.json",
+      "domains": ["twitter.com"],
+      "resourceTypes": ["xmlhttprequest"]
+    }
+  }
+]
