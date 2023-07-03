@@ -5,7 +5,7 @@ on the number of tweets a user can see per day, established by Twitter. Rest ass
 private and does not collect any user data.
 
 
-[![Add to Chrome](https://github.com/gsusI/unlimited-twitter-views/blob/master/images/button.png)](https://chrome.google.com/webstore/detail/unlimited-twitter-views/loniifkcncejccmcfdanehmffchegimn?)
+[![Add to Chrome](https://raw.githubusercontent.com/gsusI/unlimited-twitter-views/main/images/button.png)](https://chrome.google.com/webstore/detail/unlimited-twitter-views/loniifkcncejccmcfdanehmffchegimn?)
 
 
 ## What does it do?
